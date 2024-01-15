@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:scrollbarSize="25sp"
+    tools:context=".RequestForAppointment">
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/back1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Request For Appointment"
+            ></TextView>
+        <EditText
+            android:id="@+id/pname"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Enter patient Name"
+            ></EditText>
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Enter Mobile No"
+            ></EditText>
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Enter Email id"
+            ></EditText>
+        <EditText
+            android:id="@+id/reason"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="Enter Reason of appointment"
+            ></EditText>
+        <DatePicker
+            android:id="@+id/simpleDatePicker"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:datePickerMode="spinner"
+            android:padding="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Select Timing From "
+            android:textSize="30dp"
+            ></TextView>
+        <TimePicker
+            android:id="@+id/timePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Select Timing To "
+            android:textSize="30dp"
+            ></TextView>
+        <TimePicker
+            android:id="@+id/timePicker2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/request"
+            android:text="Submit Request"></Button>
+    </LinearLayout>
+</ScrollView>

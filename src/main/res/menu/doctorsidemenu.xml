@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home_page"
+        android:title="Home" />
+    <item
+        android:id="@+id/check_schedule"
+        android:title="Check Appointment schedule"/>
+    <item
+        android:id="@+id/Reception_Signup"
+        android:title="Reception Signup"/>
+
+    <item
+        android:id="@+id/CheckAppointmentRequest"
+        android:title="Check appointment Request"/>
+    <item
+        android:id="@+id/check_Feedback"
+        android:title="Check Feedback"/>
+    <item
+        android:id="@+id/Fill_patient_Info"
+        android:title="Fill patient information" />
+    <item
+        android:id="@+id/Check_patientInfo"
+        android:title="Check Patient Information" />
+    <item
+        android:id="@+id/signout"
+        android:title="Log out" />
+
+</menu>

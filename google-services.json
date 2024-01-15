@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "822685286436",
+    "firebase_url": "https://jangam-clinic-default-rtdb.firebaseio.com",
+    "project_id": "jangam-clinic",
+    "storage_bucket": "jangam-clinic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822685286436:android:850069831d616db94098b1",
+        "android_client_info": {
+          "package_name": "com.example.clinic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822685286436-3oo1gq87g9lmu6sqks4eoike0tf0h9po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2DtEOeoCCSKdjV7E1H492LsiN7JlKnRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822685286436-3oo1gq87g9lmu6sqks4eoike0tf0h9po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822685286436:android:ec8df09fff9e42054098b1",
+        "android_client_info": {
+          "package_name": "com.example.fabcaredrycleanpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822685286436-3oo1gq87g9lmu6sqks4eoike0tf0h9po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2DtEOeoCCSKdjV7E1H492LsiN7JlKnRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822685286436-3oo1gq87g9lmu6sqks4eoike0tf0h9po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

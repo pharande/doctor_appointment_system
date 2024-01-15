@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">822685286436-3oo1gq87g9lmu6sqks4eoike0tf0h9po.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://jangam-clinic-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">822685286436</string>
+    <string name="google_api_key" translatable="false">AIzaSyC2DtEOeoCCSKdjV7E1H492LsiN7JlKnRI</string>
+    <string name="google_app_id" translatable="false">1:822685286436:android:850069831d616db94098b1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC2DtEOeoCCSKdjV7E1H492LsiN7JlKnRI</string>
+    <string name="google_storage_bucket" translatable="false">jangam-clinic.appspot.com</string>
+    <string name="project_id" translatable="false">jangam-clinic</string>
+</resources>

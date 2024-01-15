@@ -1,0 +1,406 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.clinic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\846aa5dc363f936b285c7e4acccd966c\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\846aa5dc363f936b285c7e4acccd966c\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\846aa5dc363f936b285c7e4acccd966c\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\846aa5dc363f936b285c7e4acccd966c\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:5:5-93:19
+18        android:allowBackup="true"
+18-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\add5d6783fb85f73b3feabf67f860a00\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Clinic" >
+26-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:11:9-44
+27        <activity
+27-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:12:9-14:40
+28            android:name="com.example.clinic.FeedbackForm1"
+28-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:13:13-42
+29            android:exported="false" />
+29-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:14:13-37
+30        <activity
+30-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.clinic.ForgetPasswordForReception"
+31-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:16:13-55
+32            android:exported="false" />
+32-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.clinic.ForgetPasswordForPatient"
+34-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:19:13-53
+35            android:exported="false" />
+35-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.clinic.ForgetPasswordForDoctor"
+37-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:22:13-52
+38            android:exported="false" />
+38-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.clinic.CheckAppointmentScheduleByDoctor"
+40-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:25:13-61
+41            android:exported="false" />
+41-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.clinic.CheckAppointmentStatusByPatient"
+43-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:28:13-60
+44            android:exported="false" />
+44-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.example.clinic.ConfirmAppointment"
+46-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:31:13-47
+47            android:exported="false" />
+47-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.example.clinic.checkPatientInformation"
+49-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:34:13-52
+50            android:exported="false" />
+50-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.example.clinic.FillPatientInfoBydoctor"
+52-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:37:13-52
+53            android:exported="false" />
+53-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.example.clinic.CheckAppointmentRequest"
+55-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:40:13-52
+56            android:exported="false" />
+56-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:42:9-44:40
+58            android:name="com.example.clinic.RequestForAppointment"
+58-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:43:13-50
+59            android:exported="false" />
+59-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:44:13-37
+60        <activity
+60-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:45:9-47:40
+61            android:name="com.example.clinic.CheckFeedback"
+61-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:46:13-42
+62            android:exported="false" />
+62-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:47:13-37
+63        <activity
+63-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:48:9-50:40
+64            android:name="com.example.clinic.ReceptionIndexPage"
+64-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:49:13-47
+65            android:exported="false" />
+65-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:50:13-37
+66        <activity
+66-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:51:9-53:40
+67            android:name="com.example.clinic.FeedbackForm"
+67-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:52:13-41
+68            android:exported="false" />
+68-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:53:13-37
+69        <activity
+69-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:54:9-56:40
+70            android:name="com.example.clinic.PatientIndexPage"
+70-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:55:13-45
+71            android:exported="false" />
+71-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:56:13-37
+72        <activity
+72-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:57:9-59:40
+73            android:name="com.example.clinic.DoctorIndexPage"
+73-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:58:13-44
+74            android:exported="false" />
+74-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:59:13-37
+75        <activity
+75-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:60:9-62:40
+76            android:name="com.example.clinic.ReceptionSignup"
+76-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:61:13-44
+77            android:exported="false" />
+77-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:62:13-37
+78        <activity
+78-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:63:9-65:40
+79            android:name="com.example.clinic.Reception_Login"
+79-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:64:13-44
+80            android:exported="false" />
+80-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:65:13-37
+81        <activity
+81-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:66:9-68:40
+82            android:name="com.example.clinic.PatientSignup"
+82-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:67:13-42
+83            android:exported="false" />
+83-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:68:13-37
+84        <activity
+84-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:69:9-71:40
+85            android:name="com.example.clinic.DoctorLogin"
+85-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:70:13-40
+86            android:exported="false" />
+86-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:71:13-37
+87        <activity
+87-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:72:9-74:40
+88            android:name="com.example.clinic.PatientLogin"
+88-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:73:13-41
+89            android:exported="false" />
+89-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:74:13-37
+90        <activity
+90-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:75:9-77:40
+91            android:name="com.example.clinic.ContactUs"
+91-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:76:13-38
+92            android:exported="false" />
+92-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:77:13-37
+93        <activity
+93-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:78:9-80:40
+94            android:name="com.example.clinic.IndexPage"
+94-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:79:13-38
+95            android:exported="false" />
+95-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:80:13-37
+96        <activity
+96-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:81:9-83:40
+97            android:name="com.example.clinic.MainActivity"
+97-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:82:13-41
+98            android:exported="false" />
+98-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:83:13-37
+99        <activity
+99-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:84:9-92:20
+100            android:name="com.example.clinic.SplashActivity"
+100-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:85:13-43
+101            android:exported="true" >
+101-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:86:13-36
+102            <intent-filter>
+102-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:87:13-91:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:88:17-69
+103-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:88:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:90:17-77
+105-->C:\Users\LENOVO\AndroidStudioProjects\clinic\app\src\main\AndroidManifest.xml:90:27-74
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+109            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+109-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+110            android:excludeFromRecents="true"
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+111            android:exported="true"
+111-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+112            android:launchMode="singleTask"
+112-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+114            <intent-filter>
+114-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+115                <action android:name="android.intent.action.VIEW" />
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+116
+117                <category android:name="android.intent.category.DEFAULT" />
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+118                <category android:name="android.intent.category.BROWSABLE" />
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+119
+120                <data
+120-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+121                    android:host="firebase.auth"
+121-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+122                    android:path="/"
+122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+123                    android:scheme="genericidp" />
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+124            </intent-filter>
+125        </activity>
+126        <activity
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+127            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+127-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+128            android:excludeFromRecents="true"
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+129            android:exported="true"
+129-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+130            android:launchMode="singleTask"
+130-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+131-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+132            <intent-filter>
+132-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+133                <action android:name="android.intent.action.VIEW" />
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+133-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+135-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+136                <category android:name="android.intent.category.BROWSABLE" />
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+137
+138                <data
+138-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+139                    android:host="firebase.auth"
+139-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+140                    android:path="/"
+140-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+141                    android:scheme="recaptcha" />
+141-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+142            </intent-filter>
+143        </activity>
+144
+145        <service
+145-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
+146            android:name="com.google.firebase.components.ComponentDiscoveryService"
+146-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:65:13-84
+147            android:directBootAware="true"
+147-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\57c1f0bead17ec76743a239bf77339e7\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+148            android:exported="false" >
+148-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+149            <meta-data
+149-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+150                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+150-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\f809eb5082dd0319a0cf8bc19e11fd6b\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\76a84fb9b1cbf0a8e6f33bef93b2f499\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
+153                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+153-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\76a84fb9b1cbf0a8e6f33bef93b2f499\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\76a84fb9b1cbf0a8e6f33bef93b2f499\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-database:20.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\0b41ad50d2972bc5b09b0e2162675261\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+156                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+156-->[com.google.firebase:firebase-database:20.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\0b41ad50d2972bc5b09b0e2162675261\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-database:20.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\0b41ad50d2972bc5b09b0e2162675261\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\2cbefd4f832b8f0aa35339469d787354\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+159                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+159-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\2cbefd4f832b8f0aa35339469d787354\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\2cbefd4f832b8f0aa35339469d787354\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+161            <meta-data
+161-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\846aa5dc363f936b285c7e4acccd966c\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+162                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+162-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\846aa5dc363f936b285c7e4acccd966c\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\846aa5dc363f936b285c7e4acccd966c\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\b0b6cf0bd9138be9684ef7bf20bc4412\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+165                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+165-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\b0b6cf0bd9138be9684ef7bf20bc4412\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\b0b6cf0bd9138be9684ef7bf20bc4412\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+167        </service>
+168
+169        <provider
+169-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\57c1f0bead17ec76743a239bf77339e7\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+170            android:name="com.google.firebase.provider.FirebaseInitProvider"
+170-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\57c1f0bead17ec76743a239bf77339e7\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+171            android:authorities="com.example.clinic.firebaseinitprovider"
+171-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\57c1f0bead17ec76743a239bf77339e7\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+172            android:directBootAware="true"
+172-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\57c1f0bead17ec76743a239bf77339e7\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+173            android:exported="false"
+173-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\57c1f0bead17ec76743a239bf77339e7\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+174            android:initOrder="100" />
+174-->[com.google.firebase:firebase-common:20.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\57c1f0bead17ec76743a239bf77339e7\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+175
+176        <activity
+176-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\28442e6bf12fcceca1e7e77f735340c2\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+177            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+177-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\28442e6bf12fcceca1e7e77f735340c2\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\28442e6bf12fcceca1e7e77f735340c2\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+179-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\28442e6bf12fcceca1e7e77f735340c2\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+180
+181        <receiver
+181-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+182            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+182-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+184            android:exported="false" >
+184-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+185        </receiver>
+186
+187        <service
+187-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+188            android:name="com.google.android.gms.measurement.AppMeasurementService"
+188-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+190            android:exported="false" />
+190-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+191        <service
+191-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+192            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+192-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" />
+195-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\21d91badba1ec7da3174dcebb6746c0d\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+196
+197        <meta-data
+197-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\e0c9159d900e4c59cee706048ba7a05b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+198            android:name="com.google.android.gms.version"
+198-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\e0c9159d900e4c59cee706048ba7a05b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+199            android:value="@integer/google_play_services_version" />
+199-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\e0c9159d900e4c59cee706048ba7a05b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+200
+201        <provider
+201-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\24a2f8aaeb1223b7cf12bdd51d31f10d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+202            android:name="androidx.startup.InitializationProvider"
+202-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\24a2f8aaeb1223b7cf12bdd51d31f10d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+203            android:authorities="com.example.clinic.androidx-startup"
+203-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\24a2f8aaeb1223b7cf12bdd51d31f10d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+204            android:exported="false" >
+204-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\24a2f8aaeb1223b7cf12bdd51d31f10d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+205            <meta-data
+205-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\24a2f8aaeb1223b7cf12bdd51d31f10d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+206                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+206-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\24a2f8aaeb1223b7cf12bdd51d31f10d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+207                android:value="androidx.startup" />
+207-->[androidx.emoji2:emoji2:1.0.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\24a2f8aaeb1223b7cf12bdd51d31f10d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+208            <meta-data
+208-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\8c926852014af8a748f4f9a929fc5ca9\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+209                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+209-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\8c926852014af8a748f4f9a929fc5ca9\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+210                android:value="androidx.startup" />
+210-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\LENOVO\AndroidStudioProjects\clinic\caches\transforms-3\8c926852014af8a748f4f9a929fc5ca9\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+211        </provider>
+212    </application>
+213
+214</manifest>

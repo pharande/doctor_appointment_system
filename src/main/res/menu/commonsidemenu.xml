@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home_page"
+        android:title="Home" />
+    <item
+        android:id="@+id/Doctor_Login"
+        android:title="Doctor Login"/>
+
+<item android:id="@+id/Reception_Login"
+    android:title="Reception Login"/>
+    <item
+        android:id="@+id/Patient"
+        android:title="Patient Login" />
+    <item
+        android:id="@+id/Feedback"
+        android:title="Feedback Form" />
+    <item
+        android:id="@+id/ContactUs"
+        android:title="Contact Us" />
+
+</menu>
